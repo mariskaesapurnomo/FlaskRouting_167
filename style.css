@@ -1,0 +1,64 @@
+/* CSS untuk semua halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1.5rem 0; /* Menambah padding untuk header */
+    margin-bottom: 20px; /* Menambah margin bawah agar ada jarak dengan konten */
+}
+
+/* Link */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline; /* Tambahkan efek hover pada link */
+}
+
+/* Tombol */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px; /* Menambah ukuran font pada tombol */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Form */
+form {
+    margin-top: 50px;
+}
+
+/* Input */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Menambah ukuran font pada input */
+}
+
+/* Error Message */
+p.error {
+    margin: 10px 0;
+    font-size: 14px;
+    color: red; /* Menambahkan warna merah untuk pesan error */
+}
